@@ -22,38 +22,43 @@ header {
 #section1 {
     float: left;
     text-align: center;
-
+    margin: 20px 20px 20px 200px;
 }
 
 section {
-    width: 60%;
+    width: 45%;
     height: 300px;
     color: #626263;
     background-color: #d9d9dd;
-    
-
+    float: left; 
 }
 
 article {
     color: #d9d9dd;
     background-color: #626263;
-    width: 55%;
-    height: 150px;
-
+    float: left;
 }
 
 h1 {
+    float: left;
 
 }
 
 p {
+    float: left;
 
 }
 
 aside {
-
+    float: left;
+    color: #626263;
+    background-color: #d9d9dd;
+    width: 25.7%;
+    height: 300px;
+    margin: 20px 200px 20px 20px;
 }
 
-footer {
-
+footer {   
+    clear:both;
+    overflow: auto;
 }
